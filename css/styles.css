@@ -2,14 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     color: #434455;
-    background-color: #FFF;
+    background-color: #FFFFFF;
 
-}
-
-border-box {
-    background: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 a {
@@ -19,74 +13,39 @@ a {
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-
-button {
-    cursor: pointer;
-    color: #FFF;
-}
-
-.section-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: calc(40/36);
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    text-align: center;
 }
 
 /*Header*/
 
 .header {
-    display: flex;
+    background: #FFF;
 }
 
-.logo {
+.logo-header, 
+.logo-footer {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif ;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
-.logo-part {
+.logo-header-part {
     color: #2E2F42;
 }
 
-.logo-part-two {
+.logo-footer-part {
     color: #F4F4FD;
-}
-
-.nav-list {
-    display: flex;
 }
 
 .nav-link {
     color: #2E2F42;
+    font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-
 }
 
 .nav-link:hover,
@@ -96,7 +55,7 @@ button {
 }
 
 .address {
-    display: flex;
+    font-style: normal;
 }
 
 .mail-link,
@@ -120,7 +79,7 @@ button {
 
 /* Subject Section */
 
-.slogan-title {
+.section-one {
     background: #2E2F42;
 }
 
@@ -133,23 +92,34 @@ button {
     letter-spacing: 1.12px;
 }
 
-.section-btn {
+.button-style {
     color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
-    border-radius: 4px;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 .section-btn:hover,
 .section-btn:focus {
-    background-color: #404BBF;
+   background-color: #404BBF;
 }
 
 /* Features Section */
+ 
+.section-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(40/36);
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
 
 .features-subtitle {
     color: #2E2F42;
@@ -161,12 +131,12 @@ button {
 
 .features-descr {
     color: #434455;
-    line-height: 24px;
+    line-height: 16px;
     letter-spacing: 0.32px;
 }
 
-.our-team {
-    background: #F4F4FD;
+.section-three {
+    background-color: #F4F4FD;
 }
 
 .card-info {
@@ -179,6 +149,6 @@ button {
     letter-spacing: 0.32px;
 }
 
-.section-color {
+.footer {
     background-color: #2E2F42;
 }
