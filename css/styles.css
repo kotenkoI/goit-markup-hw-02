@@ -58,8 +58,7 @@ ul {
     font-style: normal;
 }
 
-.mail-link,
-.tel-link {
+.address-link {
     color: #434455;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -88,7 +87,7 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: calc(60/56);
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
 
@@ -103,8 +102,8 @@ ul {
     cursor: pointer;
 }
 
-.section-btn:hover,
-.section-btn:focus {
+.button-style:hover,
+.button-style:focus {
    background-color: #404BBF;
 }
 
@@ -115,7 +114,7 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: calc(40/36);
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
@@ -125,13 +124,14 @@ ul {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: calc(24/20);
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
 .features-descr {
     color: #434455;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
